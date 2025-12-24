@@ -13,7 +13,7 @@ export default function Home() {
       <div className="w-lg flex justify-end">
         <button
           onClick={() => setShowWrapped((prev) => !prev)}
-          className="border px-3 py-2 border-dashed text-neutral-300 hover:text-neutral-100 border-neutral-500 hover:bg-neutral-500/20 transition-all duration-300 active:-translate-y-0.5 active:scale-95 relative overflow-hidden"
+          className="border px-3 py-2 border-dashed text-neutral-300 hover:text-neutral-100 border-neutral-500 hover:bg-neutral-500/20 transition-all duration-300 active:-translate-y-0.5 active:scale-95 relative overflow-hidden cursor-pointer"
         >
           <AnimatePresence mode="wait">
             <motion.span
