@@ -6,6 +6,11 @@ const links = [
   { href: "/clerk-card", label: "Clerk Card" },
 ];
 
+export const metadata = {
+  title: "Motion Playground",
+  description: "Motion Playground - Interactive animations and transitions",
+};
+
 export default function Home() {
   return (
     <div className="font-heading flex min-h-screen flex-col items-center justify-center gap-8">
