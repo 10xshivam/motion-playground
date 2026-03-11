@@ -33,7 +33,7 @@ export function ClerkCard() {
               stiffness: 100,
               damping: 20,
             }}
-            className="flex w-100 flex-col gap-4 rounded-2xl border border-neutral-800 bg-neutral-700/10 p-6"
+            className="flex w-100 flex-col gap-4 rounded-2xl border border-neutral-800 bg-neutral-700/10 p-6 cursor-default"
           >
             <div className="flex flex-col gap-2">
               <h2 className="font-heading text-2xl">
