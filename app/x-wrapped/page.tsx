@@ -5,11 +5,11 @@ import Image from "next/image";
 import { AnimatePresence, motion } from "motion/react";
 import { useState } from "react";
 
-export default function Home() {
+export default function XWrapped() {
   const [showWrapped, setShowWrapped] = useState(false);
 
   return (
-    <div className="flex min-h-screen items-center bg-zinc-50 dark:bg-black flex-col gap-7 pt-40">
+    <div className="flex min-h-screen items-center bg-zinc-50 dark:bg-black flex-col gap-7 pt-40 font-heading">
       <div className="w-lg flex justify-end">
         <button
           onClick={() => setShowWrapped((prev) => !prev)}

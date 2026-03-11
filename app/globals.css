@@ -5,6 +5,11 @@
   --foreground: #171717;
 }
 
+@theme {
+  --font-regular:'inter', sans-serif;
+  --font-heading:'instrument-serif', serif;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);

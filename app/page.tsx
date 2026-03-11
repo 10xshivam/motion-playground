@@ -1,12 +1,26 @@
 import { ChevronRight } from "lucide-react";
 import Link from "next/link";
 
+const links = [
+  { href: "/x-wrapped", label: "X's Wrapped" },
+  { href: "/clerk-card", label: "Clerk Card" },
+];
+
 export default function Home() {
   return (
-    <div className="flex justify-center items-center min-h-screen flex-col gap-8">
+    <div className="font-heading flex min-h-screen flex-col items-center justify-center gap-8">
       <h1 className="text-5xl">Motion Playground</h1>
-      <div className="w-96 h-[60vh] border border-neutral-500 border-dashed p-5">
-        <Link href={'/x-wrapped'} className="text-sm flex items-center text-neutral-400 gap-2 hover:text-neutral-100"> <ChevronRight size={15}/>X&apos;s Wrapped</Link>
+      <div className="h-[60vh] w-96 border border-dashed border-neutral-500 p-5">
+        {links.map((item) => (
+          <Link
+            key={item.href}
+            href={item.href}
+            className="flex items-center gap-2 text-sm text-neutral-400 hover:text-neutral-100"
+          >
+            <ChevronRight size={15} />
+            {item.label}
+          </Link>
+        ))}
       </div>
     </div>
   );

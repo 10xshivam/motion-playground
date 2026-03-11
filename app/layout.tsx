@@ -1,11 +1,17 @@
 import type { Metadata } from "next";
-import { Instrument_Serif } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next"
+import { Inter, Instrument_Serif } from "next/font/google";
 import "./globals.css";
 
-const instrument = Instrument_Serif({
-  weight: ["400"],
+const inter = Inter({
   subsets: ["latin"],
+  variable: "--font-regular",
+});
+
+const instrumentSerif = Instrument_Serif({
+  subsets: ["latin"],
+  variable: "--font-heading",
+  weight: "400",
 });
 
 export const metadata: Metadata = {
@@ -19,9 +25,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${inter.variable} ${instrumentSerif.variable}`}>
       <body
-        className={`${instrument.className} antialiased`}
+        className={`font-regular antialiased`}
       >
         <Analytics/>
         {children}
