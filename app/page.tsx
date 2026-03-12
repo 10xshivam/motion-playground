@@ -4,6 +4,7 @@ import Link from "next/link";
 const links = [
   { href: "/x-wrapped", label: "X's Wrapped" },
   { href: "/clerk-card", label: "Clerk Card" },
+  { href: "/action-menu", label: "Action Menu" },
 ];
 
 export const metadata = {
