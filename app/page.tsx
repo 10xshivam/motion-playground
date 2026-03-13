@@ -16,12 +16,12 @@ export default function Home() {
   return (
     <div className="font-heading flex min-h-screen flex-col items-center justify-center gap-8">
       <h1 className="text-5xl">Motion Playground</h1>
-      <div className="h-[60vh] w-96 border border-dashed border-neutral-500 p-5">
+      <div className="h-[60vh] w-96 bg-neutral-900  p-5 rounded-xl">
         {links.map((item) => (
           <Link
             key={item.href}
             href={item.href}
-            className="flex items-center gap-2 text-sm text-neutral-400 hover:text-neutral-100"
+            className="flex items-center gap-2 text-lg text-neutral-500 hover:text-neutral-100 transition-colors duration-300"
           >
             <ChevronRight size={15} />
             {item.label}
