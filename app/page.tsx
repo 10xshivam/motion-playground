@@ -5,6 +5,7 @@ const links = [
   { href: "/x-wrapped", label: "X's Wrapped" },
   { href: "/clerk-card", label: "Clerk Card" },
   { href: "/action-menu", label: "Action Menu" },
+  { href: "/nature-gallery", label: "Nature Gallery" },
 ];
 
 export const metadata = {
