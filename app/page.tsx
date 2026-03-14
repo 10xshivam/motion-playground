@@ -6,6 +6,7 @@ const links = [
   { href: "/clerk-card", label: "Clerk Card" },
   { href: "/action-menu", label: "Action Menu" },
   { href: "/nature-gallery", label: "Nature Gallery" },
+  { href: "/delete-confirmation", label: "Delete Confirmation" },
 ];
 
 export const metadata = {
