@@ -7,6 +7,7 @@ const links = [
   { href: "/action-menu", label: "Action Menu" },
   { href: "/nature-gallery", label: "Nature Gallery" },
   { href: "/delete-confirmation", label: "Delete Confirmation" },
+  { href: "/navbar", label: "Navbar" },
 ];
 
 export const metadata = {
