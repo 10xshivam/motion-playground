@@ -12,7 +12,7 @@ const navItems = [
 ];
 
 export function Navbar() {
-  const [hovered, setHovered] = useState<string | null>("/about");
+  const [hovered, setHovered] = useState<string | null>(null);
 
   const sharedTransition = {
     type: "spring",
