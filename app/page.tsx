@@ -8,7 +8,9 @@ const links = [
   { href: "/nature-gallery", label: "Nature Gallery" },
   { href: "/delete-confirmation", label: "Delete Confirmation" },
   { href: "/navbar", label: "Navbar" },
-  { href: "/animated-text", label: "Animated Text" }
+  { href: "/animated-text", label: "Animated Text" },
+  { href: "/otp-verification", label: "OTP Verification" },
+  { href: "/practice", label: "Practice" },
 ];
 
 export const metadata = {
