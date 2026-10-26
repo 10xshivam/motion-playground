@@ -10,7 +10,7 @@ const links = [
   { href: "/navbar", label: "Navbar" },
   { href: "/animated-text", label: "Animated Text" },
   { href: "/otp-verification", label: "OTP Verification" },
-  { href: "/practice", label: "Practice" },
+  { href: "/status-picker", label: "Status Picker" },
 ];
 
 export const metadata = {
