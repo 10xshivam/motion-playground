@@ -11,6 +11,7 @@ const links = [
   { href: "/animated-text", label: "Animated Text" },
   { href: "/otp-verification", label: "OTP Verification" },
   { href: "/status-picker", label: "Status Picker" },
+  { href: "/profile-dropdown", label: "Profile Dropdown" },
 ];
 
 export const metadata = {
