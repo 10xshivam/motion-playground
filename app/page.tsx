@@ -8,6 +8,7 @@ const links = [
   { href: "/nature-gallery", label: "Nature Gallery" },
   { href: "/delete-confirmation", label: "Delete Confirmation" },
   { href: "/navbar", label: "Navbar" },
+  { href: "/glass-navbar", label: "Glass Navbar" },
   { href: "/animated-text", label: "Animated Text" },
   { href: "/otp-verification", label: "OTP Verification" },
   { href: "/status-picker", label: "Status Picker" },
