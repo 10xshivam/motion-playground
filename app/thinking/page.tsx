@@ -9,7 +9,7 @@ const stagger = 0.07
 export default function Thinking() {
   return (
     <div className='w-full min-h-screen flex items-center justify-center bg-neutral-200'>
-      <p className='tracking-tighter  text-neutral-400'>
+      <p className='tracking-tight text-neutral-400'>
         {letters.map((letter, index) => (
           <motion.span
             key={index}
